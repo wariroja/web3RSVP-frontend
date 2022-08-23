@@ -62,6 +62,4 @@ function Event() {
 
 export default Event;
 
-export async function getServerSideProps() {
-
-}
+export async function getServerSideProps(){}
