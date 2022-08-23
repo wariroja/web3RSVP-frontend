@@ -29,7 +29,7 @@ const wagmiClient = createClient({
     <RainbowKitProvider chains={chains}>
       <Layout>
         <Component {...pageProps} />
-      </Layout>
+      </Layout>z
     </RainbowKitProvider>
     </WagmiConfig>
   );
