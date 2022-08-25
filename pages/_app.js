@@ -32,7 +32,7 @@ const wagmiClient = createClient({
         <ApolloProvider client={client}>
           <Layout>
             <Component {...pageProps} />
-          </Layout>z
+          </Layout>
         </ApolloProvider>
       </RainbowKitProvider>
     </WagmiConfig>
